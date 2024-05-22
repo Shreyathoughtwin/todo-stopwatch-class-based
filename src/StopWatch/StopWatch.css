@@ -1,0 +1,70 @@
+
+.stop-watch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    background: url(/Users/dr.mac/Downloads/stopwatch.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.time-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.control {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.control:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.control:active {
+    background-color: #eb230d;
+    transform: scale(0.95);
+}
+
+/* .control:disabled {
+    background-color: #3d45e099;
+    cursor: not-allowed;
+}
+
+.control:not(:disabled):hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.control:not(:disabled):active {
+    background-color: #003f7f;
+    transform: scale(0.95);
+} */
+
+.time-display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-style: solid;
+            border-width: 8px;
+            border-radius: 5px;
+            padding: 4px;
+}
